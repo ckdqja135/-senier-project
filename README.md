@@ -98,4 +98,50 @@ GPS 기능 활용 시, 사용자의 현 위치가 제대로 반영되어야 합�
 
 ### 4.2 기능적 요구사항 명세
 #### 4.2.1 Loding
+![image](https://user-images.githubusercontent.com/33046341/65529023-5e98b080-df30-11e9-98e4-355a3df5d74e.png)
 
+#### 4.4.2 Login
+![image](https://user-images.githubusercontent.com/33046341/65529061-6ce6cc80-df30-11e9-8416-831a9fc8b6c5.png)
+
+#### 4.2.3 MainActivity
+![image](https://user-images.githubusercontent.com/33046341/65529102-7a03bb80-df30-11e9-97bc-49b29c04a3ab.png)
+
+#### 4.2.4 PC방 List
+![image](https://user-images.githubusercontent.com/33046341/65529127-8851d780-df30-11e9-9b7f-a84c371171d8.png)
+
+#### 4.2.5 PC방
+![image](https://user-images.githubusercontent.com/33046341/65529148-93a50300-df30-11e9-8ba9-a25dfbfa14f4.png)
+
+#### 4.2.6 결재
+![image](https://user-images.githubusercontent.com/33046341/65529183-a15a8880-df30-11e9-9e35-317d71313b5d.png)
+
+#### 4.2.7 버전정보
+![image](https://user-images.githubusercontent.com/33046341/65529200-a9b2c380-df30-11e9-8a58-048987dee627.png)
+
+#### 4.2.8 공지사항
+![image](https://user-images.githubusercontent.com/33046341/65529222-b46d5880-df30-11e9-8da5-6f2733b5483e.png)
+
+#### 4.2.9 Pocket PC 앱 설명
+![image](https://user-images.githubusercontent.com/33046341/65529249-c2bb7480-df30-11e9-9c5c-4c2e81273ded.png)
+
+#### 4.2.10 계정정보
+![image](https://user-images.githubusercontent.com/33046341/65529278-cd760980-df30-11e9-8374-be88ae9a8602.png)
+
+## 4.3 비기능적 요구사항 명세
+#### 4.3.1 시스템 제약조건
+![image](https://user-images.githubusercontent.com/33046341/65529315-debf1600-df30-11e9-8e98-4c35a6d06d93.png)
+
+#### 4.3.2 유지보수성
+![image](https://user-images.githubusercontent.com/33046341/65529332-e8e11480-df30-11e9-816f-3157653717f7.png)
+
+#### 4.3.3 신뢰성
+![image](https://user-images.githubusercontent.com/33046341/65529368-f72f3080-df30-11e9-832e-be1c405b0fde.png)
+
+#### 4.3.4 오작동 방지
+![image](https://user-images.githubusercontent.com/33046341/65529408-fe563e80-df30-11e9-994b-f4840d76095a.png)
+
+#### 4.3.5 안정성
+![image](https://user-images.githubusercontent.com/33046341/65529433-0b732d80-df31-11e9-87b9-25467708a1c8.png)
+
+#### 4.3.6 보안성
+![image](https://user-images.githubusercontent.com/33046341/65529443-1332d200-df31-11e9-9c87-8e3302b11294.png)
