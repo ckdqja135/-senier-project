@@ -144,4 +144,37 @@ GPS 기능 활용 시, 사용자의 현 위치가 제대로 반영되어야 합�
 ![image](https://user-images.githubusercontent.com/33046341/65529433-0b732d80-df31-11e9-87b9-25467708a1c8.png)
 
 #### 4.3.6 보안성
-![image](https://user-images.githubusercontent.com/33046341/65529443-1332d200-df31-11e9-9c87-8e3302b11294.png)
+![image](https://user-images.githubusercontent.com/33046341/65529518-38274500-df31-11e9-9bfd-c122758f433f.png)
+
+# 5. 시스템 모델
+---------------------------------------------------------
+## 5.1 목적
+본 항목은 시스템 컴포넌트간의 관계, 시스템과 시스템 환경과의 관계를 보여주는 시스템 모델을 보여줍니다. 이 부분에서 어떤 모델을 사용하여 시스템의 디자인을 할 것인지를 보여줍니다. UML을 사용하여 개략적인 모델 형태를 나타냅니다. <br>
+
+## 5.2 Use-case Diagram 
+사용자의 입장에서 본 시스템의 행동 <br>
+![image](https://user-images.githubusercontent.com/33046341/65529587-5e4ce500-df31-11e9-89b6-96488094249e.png)
+
+## 5.3 Process modeling 
+시스템과 시스템 환경과의 프로세스 행동 <br>
+![image](https://user-images.githubusercontent.com/33046341/65529616-6b69d400-df31-11e9-94a1-5e9ef01c053b.png)
+
+## 5.4 Database Logical modeling
+데이터베이스의 논리적 설계 <br>
+![image](https://user-images.githubusercontent.com/33046341/65529634-745aa580-df31-11e9-841b-11a819197c43.png)
+
+# 6. 부록
+------------------------------------------------------------
+## 7.1 사용자 인터페이스 UI
+![image](https://user-images.githubusercontent.com/33046341/65529694-96542800-df31-11e9-9f1d-7e2b2e75a7e5.png)
+![image](https://user-images.githubusercontent.com/33046341/65529699-981deb80-df31-11e9-85d6-18b93c307bc9.png)
+
+## 7.2 일정
+![image](https://user-images.githubusercontent.com/33046341/65529731-a53ada80-df31-11e9-8ced-4ae1d9243c0d.png)
+
+# 8. 소스코드 Structure
+---------------------------------------
+![image](https://user-images.githubusercontent.com/33046341/65529768-b2f06000-df31-11e9-9b70-fa0182bda1af.png)
+![image](https://user-images.githubusercontent.com/33046341/65529772-b4ba2380-df31-11e9-8fc0-0d33d5ea5f95.png)
+![image](https://user-images.githubusercontent.com/33046341/65529775-b5eb5080-df31-11e9-9280-d86837277f1c.png)
+![image](https://user-images.githubusercontent.com/33046341/65529782-b84daa80-df31-11e9-94f3-ecbda50a6ac0.png)
