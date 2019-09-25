@@ -1,0 +1,87 @@
+create database pocket_PC
+use pocket_PC
+
+create table tbl_pp_user (
+	user_no int AUTO_INCREMENT primary key,
+	user_name varchar(10) not null,
+	user_id varchar(20) not null,
+	user_pw varchar(60) not null,
+	user_phone varchar(20) not null,
+	latitude double not null,
+	longitude double not null
+);
+
+
+create table tbl_pp_pc (
+	pc_no int AUTO_INCREMENT primary key,
+	pc_name varchar(10) not null,
+	pc_tel varchar(20),
+	pc_address varchar(100),
+	pc_info varchar(500),
+	pc_profile int,
+	location_no int, 
+	total_seat int,
+	use_seat int default 0
+	latitude   double, 
+	longitude double
+);
+
+create table tbl_pp_joinpc (
+	join_no int AUTO_INCREMENT primary key,
+	user_no int not null,
+	pc_no int not null,
+	foreign key(user_no) references tbl_pp_user(user_no),
+	foreign key(pc_no) references tbl_pp_pc(pc_no) 
+);
+
+create table tbl_pp_notice(
+	notice_id int AUTO_INCREMENT primary key,
+	notice_subject varchar(100) not null,
+	notice_content varchar(1000) not null,
+	notice_crtymd varchar(40) not null
+);
+
+create table tbl_pp_pc_Image (
+	image_no int AUTO_INCREMENT primary key, 
+	pc_no int not null,
+	image_name varchar(100) not null,
+	image_path varchar(200) not null,  
+	image_size int not null, 
+	foreign key(pc_no) references tbl_pp_pc(pc_no) 
+);
+
+create table tbl_pp_location (
+	location_no int AUTO_INCREMENT primary key,
+	location_name varchar(20) not null,
+	parent_no int
+);
+
+
+
+
+
+///////////////////////////////////////////////////////////////
+insert into tbl_pp_location (location_name, parent_no) 
+values ('서울', null);
+
+SELECT pc.pc_name, 
+             image.image_name 
+  FROM  tbl_pp_joinpc as joinpc,  
+             tbl_pp_user as user, 
+             tbl_pp_pc as pc, 
+             tbl_pp_pc_image as image 
+WHERE  	joinpc.pc_no    = pc.pc_no      and 
+	joinpc.user_no = user.user_no and 
+              pc.pc_no         = image.pc_no; 
+
+insert into tbl_pp_user (user_name, user_id, user_pw, user_phone) 
+values ('root', 'root', '1234', '010-0000-000');
+
+insert into tbl_pp_pc (pc_name, pc_profile) 
+values ('테스트', 1);
+
+insert into tbl_pp_joinpc (user_no, pc_no, pc_userid, pc_userpw) 
+values (1, 1, 'root', 'root');
+
+insert into tbl_pp_pc_Image(pc_no, image_name, image_path, image_size) 
+values (1, 'test', 'test/test', 1);
