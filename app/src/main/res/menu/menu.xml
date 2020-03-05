@@ -5,31 +5,27 @@
     <!-- "Mark Favorite", should appear as action button if possible -->
     <item
         android:id="@+id/action_settings"
-        android:icon="@drawable/ic_arrow_drop_down_circle_black_24dp"
         android:title="환경설정"
-        app:showAsAction="always" />
+        android:icon="@drawable/setting"
+        app:showAsAction="ifRoom"/>
 
     <!-- Settings, should always be in the overflow -->
-    <item
-        android:id="@+id/action_settings2"
+    <item android:id="@+id/action_settings2"
         android:title="공지사항"
-        app:showAsAction="never" />
+        app:showAsAction="never"/>
 
-    <item
-        android:id="@+id/action_settings3"
-        android:title="PC방List"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings4"
-        android:title="버젼정보"
-        app:showAsAction="never" />
-    <item
-    android:id="@+id/action_settings5"
-    android:title="계정정보"
-    app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings6"
+    <item android:id="@+id/action_settings3"
+        android:title="PC방 List"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings4"
+        android:title="Version"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings5"
+        android:title="계정정보"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_settings6"
         android:title="앱사용설명서"
-        app:showAsAction="never" />
-
+        app:showAsAction="never"/>
 </menu>

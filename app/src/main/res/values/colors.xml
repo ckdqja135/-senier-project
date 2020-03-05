@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="space_counter">#000000</color>
+    <color name="space_smoke">#000000</color>
+    <color name="seat_ap">#000000</color>
 </resources>
